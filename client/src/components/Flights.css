@@ -1,0 +1,10 @@
+.flightsContainer {
+  width: 93%;
+  background-color: #ded4d3;
+}
+
+.flights {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

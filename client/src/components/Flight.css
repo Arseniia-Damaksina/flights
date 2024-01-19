@@ -1,0 +1,78 @@
+.flight {
+    width: 97%;
+    height: 100px;
+    background-color: white;
+    border-radius: 9px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.departure h2,
+h3,
+h4,
+.arrival h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.departure h2, .arrival h2, .price h3 {
+    color: #b61515;
+}
+
+.departure h4, .arrival h4 {
+    color: #4d5863;
+}
+
+.departure {
+    margin-left: 40px;
+}
+
+.bookButton {
+    margin-right: 40px;
+}
+
+.bookButton button {
+    color: white;
+    background-color: #b61515;
+    border: none;
+    padding: 10px 30px;
+    font-size: 16px;
+    border-radius: 9px;
+    font-weight: 600;
+}
+
+.duration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.duration h4 { 
+    margin-top: 10px;
+    color: #4d5863;
+}
+
+.line-with-circles {
+    position: relative;
+    width: 200px;
+    height: 2px;
+    background-color: #b61515; 
+  }
+
+  .circle {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #b61515;
+    border-radius: 50%;
+    top: -4px; 
+  }
+
+  .circle.right {
+    right: 0;
+  }

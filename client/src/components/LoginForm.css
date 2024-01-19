@@ -1,0 +1,81 @@
+.form-component p {
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  margin: 0;
+}
+
+.form-container {
+  width: 400px;
+  height: 370px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9px;
+  margin-top: 30px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+}
+
+.form-container h2 {
+  margin: 0 0 10px 0;
+  color: white;
+}
+
+.form-container span  {
+  text-decoration: underline;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 20px;
+  width: 100%;
+}
+
+.login-form input[type='text'],
+input[type='email'],
+input[type='number'],
+input[type='password'] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.buttonsDiv {
+  display: flex;
+}
+
+#send {
+  display: block;
+  padding: 10px 50px;
+  background-color: #b61515;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  margin: 15px 10px;
+}
+
+#close {
+  display: block;
+  padding: 10px 50px;
+  background-color: white;
+  color: #b61515;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  margin: 15px 12px;
+}
